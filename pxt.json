@@ -15,5 +15,5 @@
         "tests.ts"
     ],
     "yotta": {},
-    "public": fals
+    "public": true
 }
