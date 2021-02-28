@@ -1,21 +1,19 @@
 {
-    "name": "test",
-    "description": "",
-    "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+    " nom " : " MARS-Rover " ,
+    " version " : " 0.0.3 " ,
+    " description " : " Package Microsoft MakeCode pour 4tronix Rover " ,
+    " licence " : " MIT " ,
+    " dépendances " : {
+        " core " : " * " ,
+        " fireled " : " github: 4tronix / FireLedsBase # 0.1.2 "
     },
-    "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+    " fichiers " : [
+        " README.md " ,
+        " rover.ts "
     ],
-    "testFiles": [
-        "test.ts"
+    " testFiles " : [
+        " tests.ts "
     ],
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    " yotta " : {},
+    " public " : vrai
 }
